@@ -27,8 +27,8 @@ if &term =~ '256color'
   set t_ut=
 endif
 
-set background=dark
 colorscheme hemisu
+set background=dark
 
 "----------------------
 " Tabs/spacing/identing 
