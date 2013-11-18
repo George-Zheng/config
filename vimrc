@@ -35,6 +35,7 @@ set background=dark
 "----------------------
 
 au BufRead,BufNewFile *.tex set spell expandtab tabstop=2 softtabstop=2 shiftwidth=2
+au BufRead,BufNewFile *.tcl set expandtab tabstop=2 softtabstop=2 shiftwidth=2
 au BufRead,BufNewFile *.py set expandtab tabstop=4 softtabstop=4 shiftwidth=4
 au BufRead,BufNewFile *.m set expandtab tabstop=4 softtabstop=4 shiftwidth=4
 au BufRead,BufNewFile *.c set noexpandtab
