@@ -30,7 +30,8 @@ endif
 colorscheme hemisu
 set background=dark
 
-hi MatchParen cterm=bold ctermfg=red gui=bold guifg=red
+hi MatchParen cterm=bold,underline ctermfg=red gui=bold,underline guifg=red
+hi Search cterm=bold,underline ctermfg=red ctermbg=NONE gui=bold,underline guifg=red guibg=NONE
 
 "----------------------
 " Tabs/spacing/identing 
@@ -66,7 +67,6 @@ set guifont=Monaco:h12
 set hlsearch
 set ruler
 set incsearch
-"hi Search ctermfg=Black ctermbg=Yellow cterm=NONE
 
 "--------
 " Backups 
