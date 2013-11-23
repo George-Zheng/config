@@ -30,6 +30,8 @@ endif
 colorscheme hemisu
 set background=dark
 
+hi MatchParen cterm=bold ctermfg=red gui=bold guifg=red
+
 "----------------------
 " Tabs/spacing/identing 
 "----------------------
