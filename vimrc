@@ -11,7 +11,7 @@
 execute pathogen#infect()
 
 " Airline
-let g:airline_theme = 'jellybeans'
+let g:airline_theme = 'murmur'
 
 "-------
 " Visual
