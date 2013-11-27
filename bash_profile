@@ -16,3 +16,8 @@ PATH=$PATH:/opt/bin
 # Alias
 alias l='ls -l'
 alias tmux='tmux -2'
+
+# Git autocompletion
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
