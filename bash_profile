@@ -21,3 +21,8 @@ alias tmux='tmux -2'
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+# TMUX autocompletion
+if [ -f ~/.tmux_completion.bash ]; then
+  . ~/.tmux_completion.bash
+fi
