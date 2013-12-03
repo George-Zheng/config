@@ -1,8 +1,8 @@
 # Colors
 if [ -e /usr/share/terminfo/x/xterm-256color ]; then
-        export TERM='xterm-256color'
+  export TERM='xterm-256color'
 else
-        export TERM='xterm-color'
+  export TERM='xterm-color'
 fi
 export CLICOLOR=1
 export GREP_OPTIONS='--color=auto'
