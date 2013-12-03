@@ -37,6 +37,7 @@ hi Search cterm=bold,underline ctermfg=red ctermbg=NONE gui=bold,underline guifg
 " Tabs/spacing/identing 
 "----------------------
 
+au BufRead,BufNewFile * set expandtab tabstop=2 softtabstop=2 shiftwidth=2
 au BufRead,BufNewFile *.tex set spell expandtab tabstop=2 softtabstop=2 shiftwidth=2
 au BufRead,BufNewFile *.tcl set expandtab tabstop=2 softtabstop=2 shiftwidth=2
 au BufRead,BufNewFile *.py set expandtab tabstop=4 softtabstop=4 shiftwidth=4
